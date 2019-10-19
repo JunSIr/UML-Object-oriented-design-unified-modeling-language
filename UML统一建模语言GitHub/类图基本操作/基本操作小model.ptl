@@ -1,0 +1,388 @@
+
+(object Petal
+    version    	50
+    _written   	"Rose 2006.0.0.060314"
+    charSet    	134)
+
+(object Class_Category "wangPackage"
+    quid       	"5DA75968016F"
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object Association "$UNNAMED$0"
+	    quid       	"5DA75D1A0272"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"5DA75D1B0382"
+		    supplier   	"Logical View::Employee"
+		    quidu      	"5DA759170304"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$2"
+		    quid       	"5DA75D1B0387"
+		    supplier   	"Logical View::Maneger"
+		    quidu      	"5DA759110049"
+		    is_navigable 	TRUE)))
+	(object Association "$UNNAMED$3"
+	    quid       	"5DA75D4902B7"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$4"
+		    quid       	"5DA75D4A0086"
+		    supplier   	"Logical View::Maneger"
+		    quidu      	"5DA759110049"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$5"
+		    quid       	"5DA75D4A008C"
+		    supplier   	"Logical View::Employee"
+		    quidu      	"5DA759170304"
+		    is_navigable 	TRUE
+		    is_aggregate 	TRUE)))
+	(object Association "$UNNAMED$6"
+	    quid       	"5DA75D6300FB"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$7"
+		    quid       	"5DA75D630258"
+		    supplier   	"Logical View::Maneger"
+		    quidu      	"5DA759110049"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$8"
+		    quid       	"5DA75D63025D"
+		    supplier   	"Logical View::Employee"
+		    quidu      	"5DA759170304"
+		    is_navigable 	TRUE))))
+    logical_presentations 	(list unit_reference_list
+	(object ClassDiagram "Main"
+	    quid       	"5DA75A02011D"
+	    title      	"Main"
+	    zoom       	100
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	0
+	    origin_y   	144
+	    items      	(list diagram_item_list
+		(object ClassView "Class" "Logical View::SkillWorker" @1
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(1829, 1386)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@1
+			location   	(1411, 1232)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	836
+			justify    	0
+			label      	"SkillWorker")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA7593E0106"
+		    compartment 	(object Compartment
+			Parent_View 	@1
+			location   	(1411, 1337)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	4
+			max_width  	871
+			justify    	1)
+		    width      	854
+		    height     	332
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object ClassView "Class" "Logical View::CommonWorker" @2
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(1123, 1419)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@2
+			location   	(911, 1215)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	424
+			justify    	0
+			label      	"CommonWorker")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA759300228"
+		    compartment 	(object Compartment
+			Parent_View 	@2
+			location   	(911, 1320)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	6
+			max_width  	443
+			justify    	1)
+		    width      	442
+		    height     	432
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object ClassView "Class" "Logical View::Customer" @3
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(470, 709)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@3
+			location   	(84, 530)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	772
+			justify    	0
+			label      	"Customer")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA759020193"
+		    compartment 	(object Compartment
+			Parent_View 	@3
+			location   	(84, 635)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	5
+			max_width  	803
+			justify    	1)
+		    width      	790
+		    height     	382
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object ClassView "Class" "Logical View::Person" @4
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(639, 195)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@4
+			location   	(500, 91)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	278
+			justify    	0
+			label      	"Person")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA758F601B4"
+		    compartment 	(object Compartment
+			Parent_View 	@4
+			location   	(500, 196)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	2
+			max_width  	197
+			justify    	1)
+		    width      	296
+		    height     	232
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object ClassView "Class" "Logical View::Employee" @5
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(1488, 693)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@5
+			location   	(1099, 514)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	778
+			justify    	0
+			label      	"Employee")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA759170304"
+		    compartment 	(object Compartment
+			Parent_View 	@5
+			location   	(1099, 619)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	5
+			max_width  	809
+			justify    	1)
+		    width      	796
+		    height     	382
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object ClassView "Class" "Logical View::Maneger" @6
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(442, 1400)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@6
+			location   	(72, 1246)
+			fill_color 	13434879
+			nlines     	1
+			max_width  	740
+			justify    	0
+			label      	"Maneger")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5DA759110049"
+		    compartment 	(object Compartment
+			Parent_View 	@6
+			location   	(72, 1351)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			icon_style 	"Icon"
+			fill_color 	13434879
+			anchor     	2
+			nlines     	4
+			max_width  	771
+			justify    	1)
+		    width      	758
+		    height     	332
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object InheritView "" @7
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"5DA75DDB02DA"
+		    client     	@2
+		    supplier   	@5
+		    vertices   	(list Points
+			(1230, 1202)
+			(1390, 884))
+		    line_style 	0)
+		(object InheritView "" @8
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"5DA75DE3028C"
+		    client     	@1
+		    supplier   	@5
+		    vertices   	(list Points
+			(1746, 1219)
+			(1581, 884))
+		    line_style 	0)
+		(object InheritView "" @9
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"5DA75E7F00F3"
+		    client     	@3
+		    supplier   	@4
+		    vertices   	(list Points
+			(532, 517)
+			(599, 311))
+		    line_style 	0)
+		(object InheritView "" @10
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"5DA75E880142"
+		    client     	@5
+		    supplier   	@4
+		    vertices   	(list Points
+			(1161, 501)
+			(787, 282))
+		    line_style 	0)))))
